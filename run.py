@@ -7,7 +7,7 @@
 # @Forum: http://testingpai.com
 
 
-from api.common.method import read_case,api_fun,write_result
+from common.method import read_case,api_fun,write_result
 
 # 完整的接口自动化测试
 def execute_fun(filename,sheetname):
@@ -44,4 +44,4 @@ def execute_fun(filename,sheetname):
 
 
 # 调用excute_fun 对login接口自动化测试
-execute_fun("D:\Pycharm_workspace\SCB22\\api\\test_data\\testcase_api_wuye.xlsx", "login")  # 代码分层结构，测试用例xlsx获取写绝对路径
+execute_fun("D:\Program Files\.jenkins\workspace\scb22\\test_data\\testcase_api_wuye.xlsx", "login")  # 代码分层结构，测试用例xlsx获取写绝对路径
